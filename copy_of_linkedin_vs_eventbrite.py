@@ -206,3 +206,34 @@ count_before_date = len(entries_before_date)
 
 print(f"Number of entries before {specific_date}: {count_before_date}")
 
+# Finding the turn around before a specific date here(2022-07-09)
+# Load your CSV data 
+df = pd.read_csv('output_data.csv')
+
+# Assuming you have a column named 'Order Date', replace it with your actual column name
+date_column = 'Order Date'
+
+# Specify the specific date (replace 'yyyy-mm-dd' with your desired date)
+specific_date = '2023-06-19'
+
+
+# Filter the DataFrame to include only entries before the specific date
+entries_before_date = df[df[date_column] < specific_date]
+
+# Count the number of entries before the specific date
+count_before_date = len(entries_before_date)
+
+print(f"Number of entries before {specific_date}: {count_before_date}")
+
+# Specify the two specific dates
+start_date = '2022-07-09'
+end_date = '2023-06-19'
+
+# Filter the DataFrame to include only entries within the specified date range
+entries_within_range = df[(df[date_column] >= start_date) & (df[date_column] <= end_date)]
+
+# Count the number of entries within the specified date range
+count_within_range = len(entries_within_range)
+
+print(f"Number of entries between {start_date} and {end_date}: {count_within_range}")
+
