@@ -15,7 +15,7 @@ In the age of digital networking and event management, choosing the right platfo
 **The data comprised of the following head:**
 'Order ID', 'Order Date', 'Attendee Status', 'First Name', 'Last Name', 'Email', 'Event Name', 'Ticket Quantity', 'Ticket Type', 'Ticket Price', 'Buyer First Name', 'Buyer Last Name', 'Buyer Email', 'Order #', 'Prefix', 'Quantity', 'Order Type', 'Total Paid', 'Eventbrite Fees', 'Eventbrite Payment Processing', 'Which of the following best describes you?', 'Do you agree to be contacted by recruiters?', 'Do you agree to receive future events and news from the event organizers?', 'Do you agree to receive news from the event partner(s)?', "Any question you'd like to ask the speaker?", 'Could we follow up with you through email?', 'Billing Address 1', 'Billing Address 2', 'Billing City', 'Billing State', 'Billing Zip', 'Billing Country', 'Job Title', 'Company', 'ID', 'Attendee #', 'Currency', 'Fees Paid', 'Type', 'Questions', 'Suggestion', 'Mailing_list', 'Recruiter_contact', 'Any question you’d like to ask the speaker?', 'Price Tier', 'Group', 'Home Address 1', 'Home Address 2', 'Home City', 'Home State', 'Home Zip', 'Home Country', 'Name', 'Buyer Name', 'If you have a question prepared for the event, please type here. ', 'Cell Phone', 'Would you like to join HirePhD Slack peer support community?', 'Event ID', "Any questions you'd like to ask the presenter?", "Any particular career path you'd like to hear more about?", 'By signing up for the event, you agree to receive future events and news from the event organizers.', 'Do you agree to be contacted by recruiters? ', "Any questions you'd like to ask the presenter? ", 'Which of the following best describes you? ', "Any particular career path you'd like to hear more about? "
 
-**Steps**
+**##Steps**
 #Data Cleaning/Wrangling: 
     -Concatenated all the files into a single file
     -Replaced NA with 0
@@ -30,6 +30,6 @@ In the age of digital networking and event management, choosing the right platfo
     - (Calculated the total amount collected during the 2 events)
     - Calculated the maximum and minimum amount spent by users.
 
-**Installation**
+**##Installation**
 
 
